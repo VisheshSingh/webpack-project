@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack serve",
     "watch": "webpack --watch",
-    "build": "webpack"
+    "build": "cross-env NODE_ENV=production webpack",
+    "build-dev": "webpack"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
-    "babel-loader": "^8.2.2"
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3"
   }
 }
