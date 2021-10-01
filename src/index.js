@@ -1,3 +1,5 @@
+import './styles/index.scss';
+
 const ryu = {
   name: 'Ryu - the red dragon',
   age: 28,

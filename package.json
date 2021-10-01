@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/VisheshSingh/webpack-project#readme",
   "dependencies": {
+    "sass": "^1.42.1",
+    "sass-loader": "^12.1.0",
     "webpack": "^5.55.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.0"
@@ -29,6 +31,11 @@
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
     "babel-loader": "^8.2.2",
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.3.0",
+    "mini-css-extract-plugin": "^2.3.0",
+    "postcss": "^8.3.8",
+    "postcss-loader": "^6.1.1",
+    "postcss-preset-env": "^6.7.0"
   }
 }
