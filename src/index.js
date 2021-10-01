@@ -5,6 +5,7 @@ const ryu = {
 };
 
 const chunLi = {
+  ...ryu,
   name: 'chun-li',
   age: 17,
   belt: 'yellow',
